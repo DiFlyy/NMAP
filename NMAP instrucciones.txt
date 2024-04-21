@@ -1,0 +1,21 @@
+Instrucciones para utilizar el script de escaneo de red con NMAP:
+
+1. Requisitos:
+    - Python 3 instalado en su sistema.
+    - La biblioteca NMAP instalada. Puede instalarla utilizando pip con el siguiente comando en su terminal:
+        
+        "pip install python-nmap"
+        
+2. Ejecución del script:
+    - Ejecute el script utilizando el siguiente comando en su terminal:
+        
+        python NMAP.py
+        
+    - Siga las instrucciones que aparecen en la terminal para proporcionar la siguiente información:
+        - Hosts a escanear (separados por comas).
+        - Puertos a escanear (separados por comas).
+        - Argumentos de NMAP (si los hay).
+        - Elección de ejecución como super usuario (si/no).
+
+4. Resultados:
+    - Una vez completado el escaneo, se imprimirán los resultados en la terminal, incluidos los hosts escaneados, el estado de los hosts, los protocolos y los puertos abiertos en cada host.
